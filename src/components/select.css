@@ -1,0 +1,29 @@
+/* Select Section Information */
+
+/*
+* Title : select component
+* Description : This is the css of the select on the component.
+*/
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+
+select:focus {
+  outline: 0;
+}
+
+select {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+select::-webkit-scrollbar {
+  display: none;
+}

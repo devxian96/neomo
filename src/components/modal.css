@@ -1,0 +1,84 @@
+/* Modal Section Information */
+
+/*
+* Title : Modal component
+* Description : This is the css of the Modal on the component.
+*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.neomo .modal {
+  background-color: #eff8ffc5;
+}
+.gray .modal {
+  background-color: #d3d3d3c5;
+}
+.dark .modal {
+  background-color: #464646c5;
+}
+.modal-button {
+  min-width: 200px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+.modal-button:focus {
+  outline: none;
+}
+.modal-button:hover {
+  box-shadow: inset 3px 3px 5px #b8b9be, inset -3px -3px 5px #fff;
+}
+.modal-content--sm {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 30%;
+  overflow: hidden;
+}
+.modal-content--md {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 50%;
+  overflow: hidden;
+}
+.modal-content--lg {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 70%;
+  overflow: hidden;
+}
+.modal-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal-close:hover,
+.modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

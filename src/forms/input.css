@@ -1,0 +1,72 @@
+/* Input Section Information */
+
+/*
+* Title : Input component
+* Description : this is Input
+*/
+
+.input {
+  width: 350px;
+  padding: 15px;
+  margin: 20px;
+  text-align: left !important;
+  font-size: 15px;
+
+  border: none;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+
+.square {
+  border-radius: 0px !important;
+}
+
+.rounded {
+  border-radius: 30px !important;
+}
+
+input:focus,
+input:disabled {
+  outline: 0;
+  box-shadow: inset 3px 3px 5px #b8b9be, inset -3px -3px 5px #fff !important;
+}
+
+input.small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+input.medium {
+  font-size: 20px;
+}
+
+input.large {
+  font-size: 25px;
+}
+
+.left-icon input {
+  padding-left: 50px;
+}
+
+.right-icon input {
+  padding-right: 50px;
+}
+
+span.left-icon i,
+span.right-icon i {
+  position: absolute;
+}
+
+.left-icon i.icon {
+  padding-left: 35px;
+  padding-top: 35px;
+  color: var(--neomo-blue-text);
+}
+
+.right-icon i.icon {
+  padding-left: 400px;
+  padding-top: 35px;
+  color: var(--neomo-blue-text);
+}

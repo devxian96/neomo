@@ -1,0 +1,65 @@
+/* Tab Section Information */
+
+/*
+* Title : Tab component
+* Description : This is the css of the Tab on the component.
+*/
+
+.tab ul {
+  list-style: none;
+  margin: 10px 0 30px 0;
+  padding: 0;
+}
+.tab ul.tab-list li {
+  float: left;
+  margin: 10px 30px 0 0;
+}
+.tab ul.tab-list li a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+  color: black;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+.tab ul.tab-list li a:hover {
+  box-shadow: inset 3px 3px 5px #b8b9be, inset -3px -3px 5px #fff;
+}
+.tab ul.tab-list li a.current {
+  box-shadow: inset 3px 3px 5px #b8b9be, inset -3px -3px 5px #fff;
+}
+.tab ul.tab-list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tab ul.tab-content {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+.tab ul.tab-content li {
+  display: none;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 24px;
+}
+.tab-content--title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.tab-content--text {
+  font-size: 15px;
+  padding: 15px;
+}
+.vertical ul.tab-list li {
+  margin: 0;
+  width: 100%;
+}
+.vertical ul.tab-list li a {
+  margin: 0 30px 20px 0;
+}

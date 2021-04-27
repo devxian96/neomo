@@ -1,0 +1,36 @@
+/* Table Section Information */
+
+/*
+* Title : Table content
+* Description : This is the css of the Table on the content.
+*/
+
+.table {
+  max-width: 1200px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #ababab, -3px -3px 7px #ffffff;
+}
+
+.table > thead > tr {
+  text-align: center;
+  font-weight: bold;
+}
+
+.table > tbody > tr {
+  text-align: center;
+}
+
+.table > thead > tr > th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table > tbody > tr > td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: thin solid rgba(0, 0, 0, 0.1);
+}
+
+/* Table component FINISH */
